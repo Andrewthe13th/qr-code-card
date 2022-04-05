@@ -1,0 +1,54 @@
+/* Front end mentor footer styling */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Defaults  */
+*,*:before,*:after{box-sizing: border-box;}
+html{font-size: 15px; font-family: 'Outfit', sans-serif;}
+html,body,h1,h2,h3,h4,p{margin: 0;padding: 0;}
+img{width: 100%;display: block;}
+
+:root{
+  --clr-font-blue: hsl(218, 44%, 22%);
+  --clr-font-gray-blue:hsl(220, 15%, 55%);
+  --clr-bg-main: hsl(212, 45%, 89%);
+  --clr-bg-white: hsl(0, 0%, 100%);
+  --fw-outfit-regular: 400;
+  --fw-outfit-bold: 700;
+}
+
+/* My Styling */
+body{background-color: var(--clr-bg-main);}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 10em 0;
+}
+
+.qr-code-card{
+  width: 17em;
+  background-color: var(--clr-bg-white);
+  padding: 0.75em;
+  border-radius: 0.7em;
+  text-align: center;
+}
+
+.qr-code-image img{
+  border-radius: 0.5em;
+}
+
+.qr-code-card h3{
+  font-weight: var(--fw-outfit-bold);
+}
+
+.qr-code-card p{
+  color: var(--clr-font-gray-blue);
+  font-weight: var(--fw-outfit-regular);
+  margin: 0.8em 0em;
+}
+
+.qr-code-card .content{
+  padding: 0.8em;
+  font-size: 0.85rem;
+}
